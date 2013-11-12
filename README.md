@@ -1,6 +1,6 @@
 # Templight
 
-TODO: Write a gem description
+A lightweight wrapper around erb that lets you specify a template filename and pass in a hash instead of writing a class for each template
 
 ## Installation
 
