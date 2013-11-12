@@ -20,7 +20,7 @@ Or install it yourself as:
 
 Add an initialiser to configure your template path in config/initializers/templight.rb
 
-   Templight.configure(:path => ./path/to/templates)
+    Templight.configure(:path => ./path/to/templates)
 
 Render templates using erb syntax by passing the template name and the hash of args to the render method
 
