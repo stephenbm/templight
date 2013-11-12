@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add an initialiser to configure your template path in config/initializers/templight.rb
+
+   Templight.configure(:path => ./path/to/templates)
+
+Render templates using erb syntax by passing the template name and the hash of args to the render method
+
+    Templight.render(filename, opts)
 
 ## Contributing
 
